@@ -27,7 +27,8 @@ While the core audio path remains true to the original DS-1 architecture, severa
 
 Proper off-board wiring is critical for a noise-free pedal. Here is the standard implementation used in this build:
 
-* **Input Jack (Stereo):** * *Tip:* Routed to 3PDT Switch (Input).
+* **Input Jack (Stereo):**
+   * *Tip:* Routed to 3PDT Switch (Input).
     * *Ring:* Connected to the 9V Battery Negative (Black wire).
     * *Sleeve:* Connected to System Ground (Star Grounding).
 * **Output Jack (Mono):**
