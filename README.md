@@ -34,7 +34,7 @@ Proper off-board wiring is critical for a noise-free pedal. Here is the standard
     * *Tip:* Routed from 3PDT Switch (Output).
     * *Sleeve:* Connected to System Ground.
 
-## 👨‍💻 Author
+## Author
 
 Designed and built by **Erdoğan Emre Büyükönder** (Music Producer / Composer under the pseudonym *Magnus Dux*). 
 
