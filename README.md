@@ -2,7 +2,6 @@
 
 ![Hardware](https://img.shields.io/badge/Hardware-PCB_Design-blue)
 ![Software](https://img.shields.io/badge/EDA-KiCad-green)
-![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ## About The Project
 
