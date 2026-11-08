@@ -1,4 +1,4 @@
-# Boss DS-1 Distortion Clone (Custom Build)
+# Boss DS-1 Distortion Clone (Custom Build) - Outdated
 
 ![Hardware](https://img.shields.io/badge/Hardware-PCB_Design-blue)
 ![Software](https://img.shields.io/badge/EDA-KiCad-green)
