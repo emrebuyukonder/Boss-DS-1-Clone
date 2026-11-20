@@ -20,7 +20,7 @@ V1 was my first pass at this pedal. While building and testing it, I found sever
 1. **Through-hole pads too small for wiring:** The potentiometers and jacks are wired directly to the PCB, but the selected through-hole footprints have holes that are too narrow for the hookup wire. Getting the wires into the pads during assembly is very difficult.
 2. **Slide switch instead of a 3PDT footswitch:** At the time of the V1 build, 3PDT footswitches were out of stock locally, so a 6-pin slide switch was used. As a result, the pedal cannot be switched on and off with your foot, and since a 6-pin switch has no spare pole, there is no status LED to show when the effect is engaged.
 3. **Reversed diode in the power supply section:** The diode in the power supply block is drawn backwards in the schematic, and the error carries over to the PCB layout. During assembly the diode had to be installed in the opposite orientation to the silkscreen marking.
-4. **Mounting holes are not grounded:** The PCB mounting hole footprints have no GND pad, so the board cannot be grounded to a metal enclosure through its mounting screws. This means the enclosure does not act as a proper shield (Faraday cage) around the circuit.
+4. **Mounting holes are not grounded:** The PCB mounting hole footprints have no GND pad, so the board cannot be grounded to the enclosure through its mounting screws. If the pedal is built into a metal enclosure, the enclosure cannot act as a proper shield (Faraday cage) around the circuit.
 
 ### What Changed in V2
 
@@ -29,11 +29,11 @@ All of the issues above are fixed in V2:
 * **Modular, solder-free off-board wiring (fixes #1):** All off-board parts (footswitch, potentiometers, audio jacks) connect to the PCB through JST connectors, so the board can be installed, serviced or modified without desoldering.
 * **3PDT footswitch with status LED (fixes #2):** V2 uses a 3PDT 9-pin latching footswitch for true bypass, with a dedicated pole driving the status LED. A lug-by-lug wiring diagram is included.
 * **Corrected power supply diode (fixes #3):** The diode orientation is corrected in both the schematic and the PCB layout.
-* **Grounded mounting holes (fixes #4):** The mounting hole footprints include GND pads, so the PCB is grounded to a metal enclosure for proper shielding.
+* **Grounded mounting holes (fixes #4):** The mounting hole footprints include GND pads, so the PCB can be grounded to a metal enclosure for proper shielding. (The V2 build itself uses a plastic enclosure, where this has no shielding effect.)
 
 V2 also adds:
 
-* **Enclosure fitting in Fusion 360:** PCB dimensions and component placement were checked against the enclosure before manufacturing.
+* **Enclosure fitting in Fusion 360:** PCB dimensions and component placement were checked against the enclosure before manufacturing. The Fusion 360 assembly is included in the V2 repository.
 * **Circuit simulation:** The gain, tone/level and transistor boost stages were simulated before the board was ordered (results are included in the V2 repository).
 
 ---
