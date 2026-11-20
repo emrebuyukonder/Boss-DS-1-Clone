@@ -76,7 +76,7 @@ Proper off-board wiring is critical for a noise-free pedal. Here is the standard
 
 ## Author
 
-Designed and built by **Erdoğan Emre Büyükönder** (Music Producer / Composer under the pseudonym *Magnus Dux*).
+Designed and built by **Erdoğan Emre Büyükönder** (Music Producer / DJ).
 
 As an Electrical-Electronics Engineering student and a music producer, this project bridges the gap between theoretical circuit analysis and practical, stage-ready audio equipment.
 
